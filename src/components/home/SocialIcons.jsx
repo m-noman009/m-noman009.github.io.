@@ -6,7 +6,7 @@ const SocialIcons = () => {
   return (
     <SocialIconsContainer>
       <a
-        href="https://github.com/m-noman009"
+        href="https://github.com/muhammadNoman-dev"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Github"

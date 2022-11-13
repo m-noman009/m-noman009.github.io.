@@ -7,7 +7,7 @@ const initialState = {
   error: null,
 };
 
-const REPO_URL = "https://api.github.com/users/m-noman009/repos";
+const REPO_URL = "https://api.github.com/users/muhammadNoman-dev/repos";
 
 export const fetchRepos = createAsyncThunk(
   "repos/fetchRepos",
