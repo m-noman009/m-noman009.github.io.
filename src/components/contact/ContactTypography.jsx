@@ -10,11 +10,11 @@ const ContactTypography = () => {
       </div>
       <div>
         <h5>Location</h5>
-        <p>Teen Meela Chowk, Attock City, Punjab, Pakistan</p>
+        <p>PAC Kamra, Attock City, Punjab, Pakistan</p>
       </div>
       <div>
         <h5>Call Me</h5>
-        <p>+92 304 1540073</p>
+        <p>+92 3498234532</p>
       </div>
       <div>
         <h5>Email Me</h5>

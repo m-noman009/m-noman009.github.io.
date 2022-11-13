@@ -12,16 +12,20 @@ const SkillsContent = () => {
       </PageHeading>
       <ProgressBarContainer>
         <ProgressBarList>
-          <CustomProgressBar title="React Js" width={90} />
-          <CustomProgressBar title="Express Js" width={82} />
-          <CustomProgressBar title="C++ / JavaScript / Python" width={94} />
+          <CustomProgressBar
+            title="React Js / Next Js / React Native"
+            width={90}
+          />
+          <CustomProgressBar title="Nest Js" width={82} />
+          <CustomProgressBar title="TypeScript / JavaScript " width={94} />
         </ProgressBarList>
         <ProgressBarList>
-          <CustomProgressBar title="Django" width={87} />
+          {/* <CustomProgressBar title="Django" width={87} />
           <CustomProgressBar
             title="Machine Learning / Deep Learning"
             width={96}
-          />
+          /> */}
+          <CustomProgressBar title="Tailwind CSS" width={92} />
           <CustomProgressBar title="HTML / CSS" width={92} />
         </ProgressBarList>
       </ProgressBarContainer>

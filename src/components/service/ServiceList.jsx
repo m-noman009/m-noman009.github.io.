@@ -1,6 +1,6 @@
 import React from "react";
 import { FaChalkboardTeacher, FaReact, FaRobot } from "react-icons/fa";
-import { SiDjango, SiExpress } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
 import { GiOnTarget } from "react-icons/gi";
 import styled from "styled-components";
 import ServiceCard from "./ServiceCard";
@@ -11,23 +11,23 @@ const ServiceList = () => {
       <ServiceCard
         Icon={<FaReact size={65} />}
         title="React Js"
-        description="Develop web applications Frontend and Backend using React JS"
+        description="Develop web applications Frontend using React JS."
       />
       <ServiceCard
-        Icon={<SiExpress size={65} />}
-        title="Express Js"
-        description="Provide a complete backend RESTful API using Express JS"
+        Icon={<SiNestjs size={65} />}
+        title="Nest Js"
+        description="Provide a complete backend RESTful API using Nest JS"
       />
       <ServiceCard
-        Icon={<SiDjango size={65} />}
-        title="Django"
-        description="Provide a complete backend using Django/Django Restframework"
+        Icon={<FaReact size={65} />}
+        title="React Native"
+        description="Develop mobile app using React Native."
       />
-      <ServiceCard
+      {/* <ServiceCard
         Icon={<FaRobot size={65} />}
         title="Neural Network"
         description="Provide a complete solution of neural network problem using python"
-      />
+      /> */}
       <ServiceCard
         Icon={<GiOnTarget size={65} />}
         title="Consultation"

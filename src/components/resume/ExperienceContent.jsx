@@ -3,25 +3,42 @@ import styled from "styled-components";
 import ResumeCardList from "./ResumeCardList";
 import ResumeCard from "./ResumeCard";
 
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
 const ExperienceContent = () => {
   return (
     <ExperienceContentContainer>
       <span>Experience</span>
       <ResumeCardList>
         <ResumeCard
-          title="Neural Network Developer"
-          info={`Fiverr / 2019-${new Date().getFullYear()}`}
-          description="Completed final year project and many other neural network projects on fiverr using python"
+          title="Software Engineer"
+          info={`ByteMage / May 2022-${
+            monthNames[new Date().getMonth()]
+          } ${new Date().getFullYear()} `}
+          description="Completed many project of different client in this company using React js, Next Js, Nest Js and React Native."
         />
 
         <ResumeCard
-          title="Back-End Developer"
-          info={`Fiverr / 2019-${new Date().getFullYear()}`}
-          description="Completed final year project and many other projects on fiverr using Django and Express."
+          title="Full Stack Developer"
+          info={`Agon Esport / Feb 2022 - Jun 2022`}
+          description="Designed and Completed  many projects using React Js and Nest js."
         />
         <ResumeCard
           title="Front-End Developer"
-          info={`Fiverr / 2020-${new Date().getFullYear()}`}
+          info={`FYP / 2020-${new Date().getFullYear()}`}
           description="Completed final year project using ReactJS."
         />
       </ResumeCardList>

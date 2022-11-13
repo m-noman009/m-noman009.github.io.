@@ -18,7 +18,7 @@ const ContactForm = () => {
     subjects: "",
     message: "",
     _template: "table",
-    _subject: "New Message | SK Portfolio",
+    _subject: "New Message | MN Portfolio",
   });
 
   const handleChange = async (e) => {

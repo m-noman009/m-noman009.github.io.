@@ -26,9 +26,9 @@ const HeroContent = () => {
               multiText={[
                 "Freelancer ",
                 "Web Developer ",
-                "Data Scientist ",
                 "Web Designer ",
-                "Ethical Hacker",
+                "App Developer",
+                "App Designer",
               ]}
               multiTextDelay={1000}
               typeSpeed={40}

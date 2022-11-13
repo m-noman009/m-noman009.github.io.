@@ -8,15 +8,15 @@ const EducationContent = () => {
     <EducationContentContainer>
       <span>Education</span>
       <ResumeCardList>
-        <ResumeCard
+        {/* <ResumeCard
           title="Ethical Hacking"
           info="Udemy / Youtube / 2015-2018"
           description="Learned and Master Ethical Hacking by Self Learning"
-        />
+        /> */}
         <ResumeCard
           title="Computer Science"
-          info="Government Post Graduate College / 2016-2018"
-          description="Intermediate in Computer Science"
+          info="Government Post Graduate College / 2014-2016"
+          description="Intermediate in Pre-Engineering"
         />
         <ResumeCard
           title="Bachelor Degree"

@@ -55,13 +55,13 @@ const AboutDetails = () => {
           </div>
         </Right>
       </Top>
-      <Bottom>
+      {/* <Bottom>
         <a href={`assets/cv/cv-${theme}.pdf`} download onClick={handleClick}>
           <Button disabled={false}>Download CV</Button>
         </a>
         <span></span>
         <AboutSocialIcons />
-      </Bottom>
+      </Bottom> */}
     </AboutDetailsContainer>
   );
 };
