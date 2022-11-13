@@ -12,7 +12,7 @@ const HeroContent = () => {
       <HeroContentAnimation>
         <AnimationOnScroll animateIn="animate__fadeInUp" delay={1100}>
           <h2>
-            I'm a{" "}
+            I'm
             <TypeWriterEffect
               textStyle={{
                 fontFamily: "Poppins",
@@ -24,11 +24,11 @@ const HeroContent = () => {
               startDelay={500}
               cursorColor="#F9FAFB"
               multiText={[
-                "Freelancer ",
-                "Web Developer ",
-                "Web Designer ",
-                "App Developer",
-                "App Designer",
+                "a Freelancer ",
+                "a Web Developer ",
+                "a Web Designer ",
+                "an App Developer",
+                "an App Designer",
               ]}
               multiTextDelay={1000}
               typeSpeed={40}
